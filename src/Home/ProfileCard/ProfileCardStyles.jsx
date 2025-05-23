@@ -61,17 +61,14 @@ const styles = StyleSheet.create({
   },
   profileBox: {
     flexDirection: 'row', // Aligns left and right sections horizontally
-    alignItems: 'center', // Centers content vertically
-    justifyContent: 'space-between', // Adds spacing between sections
-    backgroundColor: '#fff',
-    padding: 15,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: '#F7F7F7',
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    elevation: 3,
-    margin: 10,
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    backgroundColor: '#F7F7F7',
+    padding: 20,
+    width: '95%',
+    borderRadius: 12,
+    elevation: 1.2,
+    marginLeft: 10,
   },
 
   leftContainer: {
@@ -83,7 +80,15 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     flex: 0.6, // Adjust width for proper positioning
   },
-
+  calendarWrapper: {
+    backgroundColor: '#2A366333', // Light gray similar to the image
+    borderRadius: 20,           // Makes it circular
+    padding: 8,                 // Space around the icon
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight:5,
+  },
+  
   profileImage: {
     width: 80, // Square size
     height: 80,

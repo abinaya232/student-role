@@ -10,7 +10,10 @@ export const ProfileCard = () => {
       {/* Header Section */}
       <View style={styles.header}>
         <Text style={styles.profileText}>Profile</Text>
-        <ProfCalendar width={24} height={24} />
+        <View style={styles.calendarWrapper}>
+  <ProfCalendar width={25} height={25} />
+</View>
+
       </View>
 
       {/* Profile Box */}

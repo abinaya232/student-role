@@ -3,7 +3,6 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    // backgroundColor:"#fff",
     flexDirection: 'row',
     flexWrap: 'wrap', // Allows wrapping to a new row
     justifyContent: 'center', // Centers elements

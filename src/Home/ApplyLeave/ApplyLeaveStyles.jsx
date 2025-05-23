@@ -7,25 +7,25 @@ const styles = StyleSheet.create({
         flex: 1,
       },
       card: {
+       
+        marginLeft:200,
         width: 150,
-        height:105,
-        marginLeft:80,
-        backgroundColor: '#fff',
+        height: 105,
+        backgroundColor: '#FCFCFC',
         paddingVertical: 20,
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 10,
-        elevation: 4,
+        elevation: 1.4,
         shadowColor: '#000',
-        shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.2,
-        shadowRadius: 4,
+        marginRight: 130,
       },
       cardText: {
         marginTop: 8,
         fontSize: 14,
         color: '#4A5B9B',
-        fontWeight: 'bold',
+        fontWeight: '500',
       },
 });
 export default styles;

@@ -51,6 +51,7 @@ export default StyleSheet.create({
   },
   touchWrapper: {
     alignItems: "center",
+    marginTop:100,
   },
   date: {
     fontSize: 14,

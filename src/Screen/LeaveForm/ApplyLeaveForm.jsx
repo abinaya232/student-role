@@ -158,7 +158,7 @@ export const ApplyLeaveForm = ({navigation}) => {
         />
       )}
 
-      {/* From Time & To Time */}
+   {/* From Time & To Time */}
       <View style={styles.row}>
         <View style={styles.column}>
           <Text style={styles.label}>From Time</Text>

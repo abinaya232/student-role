@@ -5,7 +5,7 @@ import styles from './TopbarStyles';
 import NotifyIcon from '../../assets/Notification';
 import {NotificationScreen} from '../../../src/Screen/Notifications/NotificationScreen';
 
-export const Topbar = () => {
+export const Topbar = ({title}) => {
   const navigation = useNavigation(); // ✅ Use navigation hook
   const [isModalVisible, setModalVisible] = useState(false);
 
@@ -18,7 +18,11 @@ export const Topbar = () => {
       >
         <Text style={styles.initial}>V</Text>
       </TouchableOpacity>
-
+      {title && (
+        <View style={styles.titleContainer}>
+          <Text style={styles.title}>{title}</Text>
+        </View>
+      )}
       {/* 🔹 Notification Icon (Opens Modal) */}
       <TouchableOpacity
         style={styles.circle}

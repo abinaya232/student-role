@@ -67,15 +67,14 @@ const ChatScreen = () => {
 
   return (
     <View style={styles.container}>
-      <Topbar navigation={navigation} />
-      <Text style={styles.chat}>Chat</Text>
+  <Topbar title="Chat" />
+  <FlatList
+    data={chatData}
+    keyExtractor={item => item.id}
+    renderItem={renderItem}
+  />
+</View>
 
-      <FlatList
-        data={chatData}
-        keyExtractor={item => item.id}
-        renderItem={renderItem}
-      />
-    </View>
   );
 };
 

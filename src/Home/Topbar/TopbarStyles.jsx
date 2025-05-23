@@ -18,6 +18,19 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     position: 'relative',
   },
+  titleContainer: {
+    position: 'absolute',
+    left: 0,
+    right: 0,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#000',
+  },
+  
   rightIcons: {
     flexDirection: 'row',
     gap: 10,

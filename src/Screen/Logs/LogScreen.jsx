@@ -42,6 +42,7 @@ export const LogScreen = () => {
 
   const [selectedOption, setSelectedOption] = useState(type || 'Playground');
   const [logs, setLogs] = useState([]);
+  
   const flatListRef = useRef(null);
   const [scrollOffset, setScrollOffset] = useState(0);
   const screenWidth = Dimensions.get('window').width;

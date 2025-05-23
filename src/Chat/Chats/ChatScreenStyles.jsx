@@ -130,7 +130,9 @@ const styles=StyleSheet.create({
       
       chat:{
 fontWeight:'bold',
-marginRight:-50,
+alignSelf:'center',
+marginBottom:2,
+
       },
 });
 export default styles;

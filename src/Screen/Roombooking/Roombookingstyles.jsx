@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: 'gray',
     marginHorizontal: 20,
+    
     paddingVertical: 8, // Increased padding
   },
   activeTab: {

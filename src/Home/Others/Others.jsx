@@ -5,7 +5,7 @@ import styles from '../Others/OthersStyle';
 import OthersIcon from '../../assets/OtherIcon';
 
 const Others = () => {
-  console.log('Others Component Rendered'); // Debugging log
+  console.log('Others Component Rendered'); 
   const navigation = useNavigation();
 
   return (
